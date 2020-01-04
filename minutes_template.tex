@@ -1,0 +1,113 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{mdwlist}
+\usepackage{titling}
+\usepackage{ifthen}
+\usepackage{newunicodechar}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+% Macro for placeholder values
+\newcounter{placeholderC}
+\newcommand{\placeholder}[1]{<#1>\addtocounter{placeholderC}{1}}
+
+% Identity macro for replacing placeholders without having to remove '\'and '{}'
+\newcommand{\finalval}[1]{#1}
+
+\title{Zasedání SKAS MFF UK ze dne \placeholder{DATE}} 
+\author{\placeholder{AUTHOR}}
+
+
+% Create metadata file inline
+\usepackage{filecontents}
+\begin{filecontents*}{\jobname.xmpdata}
+\Author{\theauthor}
+\Title{\thetitle}
+\Keywords{SKAS MFF UK\sep AS MFF UK\sep MFF UK\sep UK}
+\Subject{Zápis ze zasedání SKAS MFF UK}
+\Publisher{Univerzita Karlova\sep Matematicko-fyzikální fakulta\sep Akademický senát}
+\end{filecontents*}
+
+\usepackage[a-2u]{pdfx}
+\usepackage[czech]{babel}
+
+\makeatletter
+\def\sep{; }
+\pdfx@topdfstring\pdfx@Author\xmp@Author
+\pdfx@topdfstring\pdfx@Title\xmp@Title
+\pdfx@topdfstring\pdfx@Keywords\xmp@Keywords
+\pdfx@topdfstring\pdfx@Publisher\xmp@Publisher
+\makeatother
+
+\usepackage{lmodern}
+\usepackage{textcomp}
+
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\renewcommand{\headrulewidth}{0pt}
+
+% TODO: Remove if accepted
+\fancyhead[C]{\color{red}{\Large Neschválená verze!}}
+
+% Custom commands
+\newcommand{\bod}[1]{\section{#1}}
+\setcounter{section}{-1}
+\newcommand{\hlasovani}[3]{\noindent \textbf{Hlasování: #1 -- #2 -- #3}}
+\newcommand{\usn}[1]{\noindent \textbf{Usnesení:} #1\\}
+\newcommand{\prijeti}[1]{\noindent \textit{Usnesení~#1bylo přijato.}}
+
+\begin{document}
+\thispagestyle{fancy} 
+
+% Based on title above
+\centerline{\huge \thetitle} 
+\medskip
+
+% Based on author above
+{\noindent\textbf{Zapsal:} \theauthor} 
+
+% TODO: Add comma separated names
+{\noindent\textbf{Přítomní členové SKAS:} } \placeholder{A. Adam}, \placeholder{B. Bar (24:61)} 
+
+{\noindent\textbf{Omluveni:} } \placeholder{C. Car}
+
+{\noindent\textbf{Hosté:} } \placeholder{D. Dar}
+
+\parskip=\medskipamount
+\medskip
+\noindent Zasedání bylo zahájeno v~\placeholder{24:61}, zasedání řídil\placeholder{a A. Adam}. %TODO
+
+% TODO: Fill agenda
+\section*{Program zasedání:}
+\begin{enumerate*}
+\setcounter{enumi}{-1}
+\item \placeholder{Schválení programu zasedání a zápisu z~minulého zasedání}
+\item \placeholder{Příliš žluťoučký kůň úpěl ďábelské ódy}
+\end{enumerate*}
+
+% TODO: Individual points
+\bod{\placeholder{Schválení programu zasedání a zápisu z~minulého zasedání}}
+\placeholder{Program zasedání byl schválen tichým souhlasem. Schválení zápisu z minulého zasedání bylo odloženo na příští zasedání z důvodu úprav na poslední chvíli.}
+
+\bod{\placeholder{Příliš žluťoučký kůň úpěl ďábelské ódy}}
+\begin{itemize}
+    \item \placeholder{Ano}. 
+    \item \placeholder{Ne}. 
+\end{itemize}
+
+\usn{\placeholder{Modrý krepák pro všechny.}}
+\hlasovani{1}{24}{2}
+\prijeti{ne}
+
+% TODO: Update end time
+\noindent Jednání bylo ukončeno v~\placeholder{24:61}. %TODO
+
+% Conditionally add footer with placeholder warning
+\ifthenelse{\value{placeholderC} > 0}{
+    \fancyfoot[C]{\color{orange}{\Large Document still contains \textasciitilde $\theplaceholderC$ placeholders}}
+}{}
+
+\end{document}
+
