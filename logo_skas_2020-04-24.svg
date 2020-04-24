@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="400mm"
+   height="400mm"
+   viewBox="0 0 400 400"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="logo_skas_2020-04-24.svg"
+   inkscape:export-filename="C:\Users\Pavel\Documents\SKAS\logo\logo_skas_2020-04-24.png"
+   inkscape:export-xdpi="200"
+   inkscape:export-ydpi="200">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="400"
+     inkscape:cy="560"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Vrstva 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(146.27679,90.526787)">
+    <rect
+       style="opacity:1;fill:#131d47;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.3286891;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="rect4779"
+       width="400"
+       height="400"
+       x="-146.27679"
+       y="-90.526787"
+       rx="7.1093517e-015" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:43.08885193px;line-height:1.25;font-family:Barlow;-inkscape-font-specification:'Barlow Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#efefef;fill-opacity:1;stroke:none;stroke-width:1.07722127"
+       x="110.18575"
+       y="96.483383"
+       id="text4765"
+       transform="scale(0.85424445,1.1706251)"><tspan
+         sodipodi:role="line"
+         id="tspan4763"
+         x="110.18575"
+         y="96.483383"
+         style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:Barlow;-inkscape-font-specification:'Barlow Heavy';fill:#efefef;fill-opacity:1;stroke-width:1.07722127">SKAS MFF UK</tspan></text>
+    <text
+       transform="scale(0.89548531,1.1167129)"
+       id="text4773"
+       y="120.81316"
+       x="105.67929"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.53864288px;line-height:1.25;font-family:Cheeseburger;-inkscape-font-specification:Cheeseburger;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#efefef;fill-opacity:1;stroke:none;stroke-width:0.36346605"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Semi-Bold';letter-spacing:6.13796854px;fill:#efefef;fill-opacity:1;stroke-width:0.36346605"
+         y="120.81316"
+         x="108.74828"
+         id="tspan4771"
+         sodipodi:role="line">Studentská komora</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.58171368px;line-height:1.25;font-family:Cheeseburger;-inkscape-font-specification:Cheeseburger;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#efefef;fill-opacity:1;stroke:none;stroke-width:0.36454281"
+       x="105.33414"
+       y="135.3633"
+       id="text4777"
+       transform="scale(0.8981382,1.1134144)"><tspan
+         sodipodi:role="line"
+         id="tspan4775"
+         x="107.51091"
+         y="135.3633"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Semi-Bold';letter-spacing:4.35354519px;fill:#efefef;fill-opacity:1;stroke-width:0.36454281">akademického senátu</tspan></text>
+    <path
+       id="path4760-1"
+       style="fill:none;stroke:#99ebec;stroke-width:3.49989152;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -40.082549,70.592046 11.40036,11.6196 -11.32728,11.32728 m -53.93833,55.540224 h 52.19618 c 6.7793,0 13.14741,-7.28929 13.56923,-16.73514 0.42181,-9.44586 -6.19684,-16.73515 -13.56923,-16.73515 h -39.62656 c -6.28496,0 -13.0996,-8.15908 -13.14838,-16.735154 -0.0488,-8.57607 6.12929,-16.73514 13.14838,-16.73514 h 50.88076"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccsssszsc" />
+  </g>
+</svg>
